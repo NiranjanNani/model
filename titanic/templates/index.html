@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Titanic Predictor</title>
+  </head>
+  <body>
+    <h1>Home Page</h1>
+    <form  action="{% url 'result' %}" >
+      Pclass:
+      <input type="text" name="pclass" >
+      <br>
+      Sex:
+      <input type="text" name="sex" >
+      <br>
+      Age:
+      <input type="text" name="age" >
+      <br>
+      Sibsp:
+      <input type="text" name="sibsp" >
+      <br>
+      Parents/Children:
+      <input type="text" name="parch" >
+      <br>
+      Fare:
+      <input type="text" name="fare" >
+      <br>
+      Embarked:
+      <input type="text" name="embarked" >
+      <br>
+      Title:
+      <input type="text" name="title" >
+      <br>
+      <input type="submit"  value="Submit">
+
+    </form>
+  </body>
+</html>
